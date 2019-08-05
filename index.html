@@ -6,18 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <style>
+      .body {
+       background-color: ;
+       margin: 50px 50px 50px 50px;
+        
+      }
+      .logo {
+       font-size: 60px;
+       font-family: ;
+       color: ;
+       text-align: center;
+      }
       
       /*original- handmade content*/
       p {
-        text-align:center;
+        text-align: center;
       }
       
       h1 {
-        font-size:px;
+        font-size: 20px;
       }
       
       h2 {
-        font-size:px;
+        font-size: 15px;
       }
       
       /*navbar*/
@@ -40,7 +51,7 @@
   font-size: 17px;
 }
 
-.topnav a:hover {
+.topnav a: hover {
   color: black;
 }
       
@@ -69,14 +80,9 @@
   font-size: 17px;
 }
 
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #ddd;
-}
-
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #ccc;
+  color: green;
 }
 
 /* Style the tab content */
@@ -88,15 +94,14 @@
 }     
       
     </style>
-    
-    <iframe width="0" height="0" src="https://www.youtuberepeater.com/watch?v=uRBxGmD32ZM#gsc.tab=0" frameborder="0" allowfullscreen></iframe
   </head>
    
   <body>
+    <div class="body">
     <!-- navbar -->
       <navbar>
         <div class="topnav">
-  <a href="index.htmlyy">-Home-</a>
+  <a href="index.html" class="active">-Home-</a>
   <a href="work.html">-The Works-</a>
   <a href="about.html">-About-</a>
 </div>
@@ -104,14 +109,7 @@
       
     <!-- content -->
       <p class="logo">th3mnk</p>
-      <p class="motto"><h2>customization</h2></p>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
+      <p class="motto"><h2>From Html to sutainablity, a kid you can rely on.</h2></p>
       <br>
       <br>
       <br>
@@ -164,20 +162,19 @@
 <div id="London" class="tabcontent">
   <p><h3>Contact</h3></p>
   <p>Phone: 845-380-1409</p>
-  <p>Phone: 917-407-7879</p>
-  <p>Phone: 914-403-8487</p>
   <p>Email: Th3mnk19@gmail.com</p>
 </div>
 
 <div id="Paris" class="tabcontent">
   <p><h3>Music</h3></p>
-  <p>"Well You Needn't" by <a src="https://www.biography.com/musician/thelonious-monk">Thelonious Monk</a> is currently playing.</p> 
-</div>
+    <p><iframe src="https://youtu.be/7ngoeZQlRHI"></iframe></p>
+    <p><a href="https://youtu.be/7ngoeZQlRHI">"Well You Needn't"</a> by <a src="https://www.biography.com/musician/thelonious-monk">Thelonious Monk</a> is currently playing.</p> 
+    </div>
 
 <div id="Tokyo" class="tabcontent">
   <h3>Source</h3>
   <ul>
-    <li><a href="W3schools.com">W3schools</a></li>
+    <li><a href="www.W3schools.com">W3schools</a></li>
   </ul>
 </div>
 
@@ -199,6 +196,6 @@ function openCity(evt, cityName) {
         
         <p>Powered by <a href="">Th3Mnk</a><p>
       </footer>
-    
-  </body
+    </div>
+</body>
 </html>
