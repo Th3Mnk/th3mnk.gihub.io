@@ -20,21 +20,36 @@
         font-size:px;
       }
       
-      /*navbar*/
+        /*navbar*/
       
-`     /*navbar*/ ` body {font-family: Arial, Helvetica, sans-serif;} 
-      * {box-sizing: border-box;} 
-      /* The navbar */ 
-      .topnav { overflow: hidden; float: center; } 
-      /* Navbar links */ 
-      .topnav a { 
-        float: center; 
-        color: blue; 
-        text-align: center; 
-        padding: 14px 16px; 
-        text-decoration: none; font-size: 17px; } 
-      .topnav a: hover 
-      { color: black; }
+`     body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  float: center;
+  text-align:center;
+}
+
+/* Navbar links */
+.topnav a {
+  float: center;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.topnav a: hover {
+  color: black;
+  text-decoration: underline;
+}
+      .logo {
+      font-size: 60px;
+      font: brush-script-standard;
+      }
       
       /*footer*/
       
@@ -84,30 +99,34 @@
     <iframe width="0" height="0" src="https://www.youtuberepeater.com/watch?v=jKxJfmBgdis#gsc.tab=0" frameborder="0" allowfullscreen></iframe
   </head>
    
-  <body background="https://www.askideas.com/wp-content/uploads/2018/04/cute-funny-kid-staring-at-camera.jpg"/>
+  <body>
     <!-- navbar -->
+      <!-- navbar -->
       <navbar>
-        <div class="topnav">
+        <div class="topnav" class="logo">
   <a href="index.html" class="active">-Home-</a>
+          <a href="contact.html">-Contact-</a>
+  <img src="https://www.freelogodesign.org/file/app/client/thumb/ec11c758-103d-4c85-9747-1fdfc19ef970_200x200.png?1570814467720" alt="logo" >
   <a href="work.html">-The Works-</a>
   <a href="about.html">-About-</a>
 </div>
       </navbar>
+
      
     <!-- content -->
     <p><h1>My Work</h1></p>
       <br>
       <p><a><img src="https://tbncdn.freelogodesign.org/59ef53d6-0380-43c8-96e1-c8267fc11b32.png?1553306171711" height=200px width="200px"></a></p>
-      <p><h2>NVGDebate</h2></p>
-      <p>This website is a school website designed to hold information and more. It requires regular updates.</p>
+      <p class="heading"><h2>NVGDebate</h2></p>
+      <p class="description">This website is a school website designed to hold information and more. It requires regular updates.</p>
     <hr>
     <p><a href="https://codehs.com/editor/html/1585546/1073893/index.html"><img src="https://previews.123rf.com/images/photopiano/photopiano1305/photopiano130500099/19688845-beautiful-river-landscape-reflection-of-big-tree-in-calm-water-forest-nature-bright-yellow-sunlight-.jpg"></a></p>
-    <p><h2>Art by Mikiah</h2></p>
-  <p>This website is a ecommerce website built for the selling of art. The order was called back and there was difficulty in images.</p>
+    <p class="heading"><h2>Art by Mikiah</h2></p>
+  <p class="description">This website is a ecommerce website built for the selling of art. The order was called back and there was difficulty in images.</p>
   <hr>
-  <p><a><img src="https://news-media.stanford.edu/wp-content/uploads/2017/05/08115014/sapolsky_qa.jpg"></a></p>
-  <p><h2>Career Website</h2><p>
-  <p>This is a website built for class. The objective was to design a website about what one wanted to be when they grew older.This was built in my second year of code in early 2019.<p>
+  <p><a src="https://codehs.com/editor/html/1266439/1073893/index.html"><img src="https://news-media.stanford.edu/wp-content/uploads/2017/05/08115014/sapolsky_qa.jpg"></a></p>
+  <p class="heading"><h2>Career Website</h2><p>
+  <p class="description">This is a website built for class. The objective was to design a website about what one wanted to be when they grew older.This was built in my second year of code in early 2019.<p>
   <hr>
     <!-- footer -->
     <!-- contact/music/source -->
@@ -130,7 +149,7 @@
 
 <div id="Paris" class="tabcontent">
   <p><h3>Music</h3></p>
-  <p>"Blues Five Spot" by <a src="https://www.biography.com/musician/thelonious-monk">Thelonious Monk</a> is currently playing.</p> 
+  <p> <a src="https://www.youtube.com/watch?v=jKxJfmBgdis">"Blues Five Spot"</a> by <a src="https://www.biography.com/musician/thelonious-monk">Thelonious Monk</a> is currently playing.</p> 
 </div>
 
 <div id="Tokyo" class="tabcontent">
